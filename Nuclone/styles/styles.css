@@ -58,8 +58,8 @@ html body {
 header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #E5E5E5;
-    box-shadow: #F3F3F3 1px 1px 4px;
+    border-bottom: 0.1px solid #E5E5E5;
+    box-shadow: #F3F3F3 2px 0.2px 2px;
     position: fixed;
     background-color: white;
 }
@@ -105,7 +105,7 @@ nav {
     font-weight: 300;
     display: flex;
     align-self: center;
-    margin-right: 30px;
+    margin-right: 44px;
     margin-left: 13.35em;
 }
 
@@ -220,12 +220,12 @@ nav {
 
 #image-cartao-de-credito {
     height: 80%;
-    margin: -0.5% -1% 0 0;
+    margin: -0.4% -1% 0 0;
 }
 
 /* Reward Content */
 .content-container-fourth {
-    height: 46em;
+    height: 47em;
     width: 100%;
     display: flex;
     align-items: center;
@@ -258,7 +258,7 @@ nav {
     
 }
 
-#image-conta-do-nubank {
+#image-reward {
     height: 80%;
     margin: -5% -1% 0 0;
 }
@@ -269,4 +269,145 @@ nav {
     margin: 9% 0 0 5%;
     font-weight: 300;
     text-decoration-color: #8659A7;
+}
+
+/* Reinventando Content */
+.content-container-fifth {
+    background-image: url("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p-reinventando {
+    color: white;
+    font-size: 3em;
+    margin-left: 5%;
+    font-weight: 300;
+}
+
+#p-description-reinventando {
+    display: flex;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin: 0 0 7% 5%;
+    color: white;
+    font-weight: 300;
+}
+
+.p-container-reinventando {
+    float: right;
+    margin: 22% 9% 0 0;
+    width: 35%;
+    text-align: right;
+}
+
+#p-foot-reinventando {
+    color: white;
+    font-size: 1.1em;
+    margin: 9% 0 0 5%;
+    font-weight: 300;
+    
+}
+
+/* Reinventando Community */
+.content-container-sixth {
+    background-image: url("https://images.unsplash.com/photo-1520857014576-2c4f4c972b57?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    height: 780px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p-community {
+    color: white;
+    font-size: 3em;
+    margin-left: 5%;
+    font-weight: 300;
+}
+
+#p-description-community {
+    display: flex;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin: 0 0 7% 5%;
+    color: white;
+    font-weight: 300;
+}
+
+.p-container-community {
+    float: left;
+    margin: 22% 0 0 7%;
+    width: 35%;
+    
+}
+
+#p-foot-community {
+    color: white;
+    font-size: 1.1em;
+    margin: 9% 0 0 5%;
+    font-weight: 300;
+    
+}
+
+/* Footer */
+/* Footer Opções */
+.footer-container-first {
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    padding-top: 4%;
+}
+
+.footer-container-first ul {
+    flex: 1 1 300px;
+    margin-left: 3em;
+    font-size: 1.2em;
+}
+
+.li-footer {
+    margin: 35px 0 70px 0;
+    line-height: 27px;
+}
+
+/*footer CNPJ e Redes */
+.footer-container-second {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.footer-nubank-info {
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#p-info {
+    margin-left: -29%;
+    align-self: center;
+
+}
+
+#nu-logo-branco {
+    height: 4em;
+    margin-left: 6%;
+    
+}
+
+.ul-social-network{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 4%;
+}
+
+.ul-social-network li {
+    margin-left: 6%;
 }
